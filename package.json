@@ -1,0 +1,25 @@
+{
+  "name": "reon-4213-syntax-highlighting",
+  "displayName": "REON-4213 Syntax Highlighting",
+  "description": "Syntax Highlighting for the conlang REON-4213. Not meant to be a programming language.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.98.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "reon-4213",
+      "aliases": ["reon-4213", "reon-4213"],
+      "extensions": [".reon"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "reon-4213",
+      "scopeName": "source.reon",
+      "path": "./syntaxes/reon-4213.tmLanguage.json"
+    }]
+  }
+}
