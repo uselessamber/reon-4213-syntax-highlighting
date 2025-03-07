@@ -16,11 +16,11 @@ Operator keywords include grammatical constructs and conjunctions.
 
 Other keywords are the entire rest of the REON-4213 dictionary saves for the Proper Nouns.
 
-\!\[Example\]\(images/example.png\)
+[Example](images/example.png)
 
 A special feature of this language is the inclusion of strings. Strings can be used with a pair of double-quotes.
 
-\!\[String example\]\(images/example_string.png\)
+[String example](images/example_string.png)
 
 ## Known Issues
 
