@@ -5,9 +5,9 @@
   "repository": {
     "url": "https://github.com/uselessamber/reon-4213-syntax-highlighting"
   },
-  "version": "0.0.1",
+  "version": "1.0.1",
   "engines": {
-    "vscode": "^1.98.0"
+    "vscode": "^1.97.2"
   },
   "categories": [
     "Other"

@@ -25,3 +25,9 @@ A special feature of this language is the inclusion of strings. Strings can be u
 ## Known Issues
 
 About the Proper Noun thing, I don't know how to make it so that any word that you have fully capitalized become a Proper Noun, so it is not a thing.
+
+# Release Notes:
+
+## v1.0.1
+
+Apparently I forgot to check VSCode version in the package.json
