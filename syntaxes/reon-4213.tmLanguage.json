@@ -7,14 +7,26 @@
 		},
 		{
 			"include": "#strings"
+		},
+		{
+			"include": "#constant"
 		}
 	],
 	"repository": {
 		"keywords": {
 			"patterns": [{
 				"name": "keyword.control.reon-4213",
-				"match": "\\b(if|while|for|return)\\b"
-			}]
+				"match": "\\b(QuelI|ExeC|TzW|HW|UW|RW|DW|EX|EXiV|EXeI|EXaD|EXlP|EXwI|EXmY|XeEX|cls|Cls)\\b"
+			},
+			{
+				"name": "keyword.operator.reon-4213",
+				"match": "\\b(->|<-|=>|<=|<=>|am|flip|ee|;|::|&)\\b"
+			},
+			{
+				"name": "keyword.other.reon-4213",
+				"match": "\\b(-bl|aaz|addr|am|amue|aw-b|aw-p|bja|bmb|bomb|centel|cetel|cez|ch|chacta|cieran|ciel|ciela|ciol|cld|code|CONSOLE|crem|de|dia|dit|dite|ds-b|ds-p|dun|dunt|dupz|earthes|ec|ec-bl|ein|eja|endi|enjea|epi|ervynla|ethes|etr|etrbl|exa|f|fa|falar|farr|fil|fill|fullu|fyra|fyuf|gal|ganan|garo-t|gin|giran|givas|glay-d|goo|goor|granm|grav|gsh|handi|heia|hez|hlt|hym|hym-eli|hyma|hyme|hymel|hymeli|hymelia|hymi|hymli|hymm|hyret|ia-b|ia-p|ic-b|ic-p|ifs|ih|ih-iz|ih-p|ihis|irtr|iz|jamb|kelfaa|kenk|kins|kinfs|koh|kranz|lane|lask|lasel|lic|lid|linc-ala|liteth|lok|lop|lopa|lync|mana|mahi|max-b|melc|memu|najala|Naya|nog|noz|nui|nux|nx|nx-que-hyma|obe|ors|pafel|pam|pami|pe|pins|pinspal|poow|pot|prip|pu|purr|put|qt|qu|que|quin|quo|rala|rala-xa|rasel|resel|raul|reiya|rew|ri|rilfa|rol|rradonle|ruri|secta|sep|sch|sht|so|sonryu|ste|strec|swel|swit|swp|syec|syest|tasy|te-b|te-p|tegjen-fa|teth|tez|tikz|trand|unk|vail|vass|ve-le|vebe|vibra|viez|vuf|vyren-dia|wal|waln|wan|weak|wean|wei|wi-b|wi-p|wilite|xic|ye|yerwi|yez|zaf|zc|zed|zedi|zeed|zen|zep|zes|zix|zod)\\b"
+			}
+		]
 		},
 		"strings": {
 			"name": "string.quoted.double.reon-4213",
