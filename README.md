@@ -31,3 +31,9 @@ About the Proper Noun thing, I don't know how to make it so that any word that y
 ## v1.0.1
 
 Apparently I forgot to check VSCode version in the package.json
+
+## v1.0.2
+
+The issue with compound words with words as substring is that the words that matches later down the match list of the regex is not checked for.
+
+Example: ih is placed before ih-p in the regex check group. So when looking for formatting pattern, only the "ih" of "ih-p" is marked. This is now fixed by changing the order of which the word is checked if it has an another word as its substring.
